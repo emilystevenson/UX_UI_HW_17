@@ -8,15 +8,23 @@ h1, h2, p {
 }
 
 h1 {
-
+  font-family: bely-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 85px;
 }
 
 h2{
-
+  font-family: nimbus-sans, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 25px;
 }
 
 p {
-  font-family: verdana;
+  font-family: nimbus-sans, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 20px;
 }
 
@@ -24,16 +32,49 @@ p {
   background-color:#FDF5E4;
   list-style-type: none;
   text-align: right;
-  margin: 0;
-  padding: 0;
+
 }
 .nav li {
   display: inline-block;
-  font-size: 20px;
   padding: 20px;
+  color: #707070;
+  font-family: nimbus-sans, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 25px;
 }
-.nav h2 {
-  text-align: left;
+
+.hi{
+  background-color:#C5BAA4;
+  height: 475px;
+  width: 60%;
+  padding: 0px 30px 30px 30px;
+}
+.hi img{
+  height: 400px;
+  width: 300px;
+  float: left;
+  padding-top: 40px;
+}
+.about-button {
+  background-color:#FFCB6B;
+  border: none;
+  color:#707070;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: nimbus-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.work{
+  background-color:#A5B6C0;
+  height: 1000px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 20px 0px 20px;
 }
 
 .card {
@@ -41,10 +82,13 @@ p {
   background-color:#FDF5E4;
   margin: 40px;
   padding: 20px;
-  width: 812px;
-  height: 300px;
+  width: 600px;
+  height: 250px;
 }
-
+.card img {
+  float: left;
+  margin: 0px;
+}
 
 .button {
   background-color:#A5B6C0;
@@ -56,7 +100,12 @@ p {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  font-family: nimbus-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
+
+
 .about-button {
   background-color:#FFCB6B;
   border: none;
@@ -67,4 +116,23 @@ p {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+footer{  
+  background-color:#FFCB6B;
+  height: 350px;
+  margin: 0px;
+  padding: 0px 30px 30px 30px;
+}
+
+footer h2 {
+  color: white;
+}
+.icons{
+text-align: center;
+}
+.icons img {
+  height: 30px;
+  padding: 10px;
+  display:inline-block;
 }
